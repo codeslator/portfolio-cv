@@ -1,1 +1,26 @@
 // app global css in SCSS form
+@font-face {
+  font-family: Montserrat;
+  src: url(./fonts//Montserrat-Regular.ttf);
+}
+
+.montserrat {
+  font-family: 'Montserrat';
+}
+
+@font-face {
+  font-family: CodeSourcePro;
+  src: url(./fonts/SourceCodePro-Regular.ttf);
+}
+
+.code_source {
+  font-family: 'CodeSourcePro';
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+.q-page-container {
+  padding: 0 !important;
+}
